@@ -1,0 +1,79 @@
+body {
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+
+input:focus {
+    border-color: #646cffaa;
+}
+
+.image-card {
+    
+    width: fit-content;
+    border-radius: 10px;
+}
+
+button {
+    height: 38px;
+    background-color: #3ba15a;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        text-align: center;
+      }
+  
+      p {
+        text-align: center;
+      }
+  
+      label {
+        text-align: center;
+      }
+  
+      input {
+        width: 80%;
+        align-self: center;
+      }
+
+    .createBtn {
+        width: 50%;
+        align-self: center;
+    }
+
+    .auth-process h3 {
+        font-size: small;
+    }
+}
+
