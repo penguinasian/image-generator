@@ -29,12 +29,10 @@
 
 <script>
     // @ is an alias to /src
-    import CreateView from '../views/CreateView.vue'
-
 
     export default {
-        name: 'HomeView',
-        components: { CreateView },
+        name: 'Navbar',
+        components: {  },
         data() {
             return {
                 logo: require('../assets/logo.svg'),
