@@ -196,7 +196,9 @@
   }
 
   input:focus {
-    border-color: #646cffaa;
+    outline: none !important;
+    box-shadow: 0 0 10px #719ECE;
+    
   }
 
   label {
