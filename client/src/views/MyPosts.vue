@@ -128,7 +128,36 @@
         }
     }
 
-    @media only screen and (min-width: 601px) {
+    @media only screen and (max-width: 1100px) and (min-width: 601px) {
+
+        .myposts {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        img {
+            max-width: 300px;
+            max-height: 300px;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+
+        .images {
+
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .myposts {
+
+            position: relative;
+            margin-top: 120px;
+        }
+    }
+
+        @media only screen and (min-width: 1101px) {
 
         .myposts {
             max-width: 1200px;
@@ -147,6 +176,7 @@
             display: grid;
             grid-template-columns: auto auto auto;
             gap: 20px;
+            justify-content: center;
         }
 
         .myposts {
@@ -155,6 +185,12 @@
             margin-top: 120px;
         }
     }
+
+
+
+
+
+    
 
     .myposts {
 
